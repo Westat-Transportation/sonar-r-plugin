@@ -48,8 +48,8 @@
         <description>
             <![CDATA[checks that '<-' is always used for assignment]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -84,8 +84,8 @@
         <description>
             <![CDATA[checks that there is no commented code outside roxygen blocks]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>VULNERABILITY</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -169,7 +169,7 @@
             <![CDATA[check that objects do not have.multiple.dots]]>
         </description>
         <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -192,7 +192,7 @@
         <description>
             <![CDATA[check that opening curly braces are never on their own line and are always followed by a newline]]>
         </description>
-        <severity>MINOR</severity>
+        <severity>MAJOR</severity>
         <type>CODE_SMELL</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
@@ -204,8 +204,8 @@
         <description>
             <![CDATA[checks that only single quotes are used to delimit string contestants]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -264,8 +264,8 @@
         <description>
             <![CDATA[Avoid the symbols T and F (for TRUE and FALSE)]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -277,7 +277,7 @@
             <![CDATA[Check for overly complicated expressions]]>
         </description>
         <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -288,8 +288,8 @@
         <description>
             <![CDATA[Checks for x == NA]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -301,7 +301,7 @@
             <![CDATA[Check that the `[[` operator is used when extracting a single element from an object, not `[` (subsetting) nor `$` (interactive use)]]>
         </description>
         <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -325,7 +325,7 @@
             <![CDATA[Check that integers are explicitly typed using the form 1L instead of 1]]>
         </description>
         <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -348,7 +348,7 @@
         <description>
             <![CDATA[Check that each step in a pipeline is on a new line, or the entire pipe fits on one line]]>
         </description>
-        <severity>MINOR</severity>
+        <severity>MAJOR</severity>
         <type>CODE_SMELL</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
@@ -360,8 +360,8 @@
         <description>
             <![CDATA[Check for 1:length(...), 1:nrow(...), 1:ncol(...), 1:NROW(...) and 1:NCOL(...) expressions. These often cause bugs when the right hand side is zero. It is safer to use \link[base]{seq_len or \link[base]{seq_along instead]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
@@ -372,8 +372,8 @@
         <description>
             <![CDATA[Check that the c function is not used without arguments nor with a single constant]]>
         </description>
-        <severity>MINOR</severity>
-        <type>CODE_SMELL</type>
+        <severity>MAJOR</severity>
+        <type>BUG</type>
         <tag>lintr</tag>
         <remediationFunction>LINEAR</remediationFunction>
         <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
